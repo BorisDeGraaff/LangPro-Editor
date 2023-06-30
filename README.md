@@ -1,15 +1,15 @@
-# LangPro-Editor
-LangPro-Editor is a simple web-based editor that allows you to make limited alternations of tableaux created by [LangPro](https://naturallogic.pro/LangPro/).  
-A live version of this website can be found on [borisdegaaff.nl/LangPro-editor](https://borisdegraaff.nl/LangProEditor).  
+# TENLIPT: a Tableau Editor for Natural Language Inference Proof Trees
+TENLIPT is a simple web-based editor that allows you to make limited alternations of natural tableaux, specifically those created by [LangPro](https://naturallogic.pro/LangPro/).  
+A live version of this website can be found on [borisdegaaff.nl/TENLIPT](https://borisdegraaff.nl/TENLIPT).  
 
 When a tableau is created with `.tableau.prove()`  in LangPro, in the directory `LangPro/xml` 2 tableaux in XML format can be found.  Upload these files to the LangPro-Editor in order to make changes to them.
 
-# Installing LangPro yourself
-Running LangPro-Editor locally is as simple as cloning this repository and opening `index.html` in a modern browser.
+# Installing TENLIPT yourself
+Running TENLIPT locally is as simple as cloning this repository and opening `index.html` in a modern browser.
 
 # Architecture
 ## Libraries
-LangPro uses the following 2 Libraries:
+TENLIPT uses the following 2 Libraries:
 
 | Library  | Purpose                                                                                                              |
 |--------------|----------------------------------------------------------------------------------------------------------------------|
