@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl_dtd/tableau.xsl"?>
+<!DOCTYPE tableau SYSTEM "xsl_dtd/tableau.dtd">
+<tableau>
+<problem id="44" answer="yes" >
+<premise id="31" >Two young women are sparring in a kickboxing fight</premise>
+<conclusion id="32" >Two women are sparring in a kickboxing match</conclusion>
+</problem>
+<tree>
+<node absId="1" id="1" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>two@(young@woman)@(be@(&#955;_554,a@(kickboxing@fight)@(&#955;_776,in@_776@spar@_554)))</llf>
+<argList>
+</argList>
+</formula>
+</node>
+<subTrees>
+<tree>
+<node absId="2" id="2" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>two@woman@(be@(&#955;_1286,a@(kickboxing@match)@(&#955;_776,in@_776@spar@_1286)))</llf>
+<argList>
+</argList>
+</formula>
+</node>
+<subTrees>
+<tree>
+<node absId="3" id="3" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>young@woman</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="tr_a" ruleApp="tr_a([1],[(c1,e)])" >
+<idList>
+<id>1</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="4" id="4" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>be@(&#955;_554,a@(kickboxing@fight)@(&#955;_776,in@_776@spar@_554))</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="tr_a" ruleApp="tr_a([1],[(c1,e)])" >
+<idList>
+<id>1</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="5" id="5" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_554,a@(kickboxing@fight)@(&#955;_776,in@_776@spar@_554))</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([4])" >
+<idList>
+<id>4</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="6" id="6" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>a@(kickboxing@fight)@(&#955;_776,in@_776@spar@c1)</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([5])" >
+<idList>
+<id>5</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="7" id="7" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>woman</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([3])" >
+<idList>
+<id>3</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="8" id="8" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>young</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([3])" >
+<idList>
+<id>3</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="9" id="9" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing@fight</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="tr_a" ruleApp="tr_a([6],[(c2,e)])" >
+<idList>
+<id>6</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="10" id="10" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_776,in@_776@spar@c1)</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="tr_a" ruleApp="tr_a([6],[(c2,e)])" >
+<idList>
+<id>6</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="11" id="11" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>in@c2@spar@c1</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([10])" >
+<idList>
+<id>10</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="12" id="12" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>fight</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([9])" >
+<idList>
+<id>9</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="13" id="13" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([9])" >
+<idList>
+<id>9</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="14" id="14" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>in@c2@spar</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([11])" >
+<idList>
+<id>11</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="15" id="15" >
+<formula sign="true" >
+<modList>
+<mod>in@c2</mod>
+</modList>
+<llf>spar</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="push_mod" ruleApp="push_mod([14])" >
+<idList>
+<id>14</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="14" id="14" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>in@c2@spar</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="mods_vp" ruleApp="mods_vp([15])" >
+<idList>
+<id>15</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="16" id="16" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>be@(&#955;_554,a@(kickboxing@fight)@(&#955;_776,in@_776@spar@_554))</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([1,2],[(c3,e)])" >
+<idList>
+<id>1</id>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="17" id="17" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>be@(&#955;_1286,a@(kickboxing@match)@(&#955;_776,in@_776@spar@_1286))</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([1,2],[(c3,e)])" >
+<idList>
+<id>1</id>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="20" id="20" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>(&#955;_1286,a@(kickboxing@match)@(&#955;_776,in@_776@spar@_1286))</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([17])" >
+<idList>
+<id>17</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="21" id="21" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>a@(kickboxing@match)@(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([20])" >
+<idList>
+<id>20</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="22" id="22" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_554,a@(kickboxing@fight)@(&#955;_776,in@_776@spar@_554))</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([16])" >
+<idList>
+<id>16</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="23" id="23" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>a@(kickboxing@fight)@(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([22])" >
+<idList>
+<id>22</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="24" id="24" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>a@(kickboxing@fight)</llf>
+<argList>
+<arg>(&#955;_776,in@_776@spar@c3)</arg>
+</argList>
+</formula>
+<source rule="same_args_tf" ruleApp="same_args_tf([23,21])" >
+<idList>
+<id>23</id>
+<id>21</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="25" id="25" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>a@(kickboxing@match)</llf>
+<argList>
+<arg>(&#955;_776,in@_776@spar@c3)</arg>
+</argList>
+</formula>
+<source rule="same_args_tf" ruleApp="same_args_tf([23,21])" >
+<idList>
+<id>23</id>
+<id>21</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="26" id="26" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing@fight</llf>
+<argList>
+<arg>c4</arg>
+</argList>
+</formula>
+<source rule="up_mon_fun" ruleApp="up_mon_fun([24,25],[(c4,e)])" >
+<idList>
+<id>24</id>
+<id>25</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="27" id="27" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c4</arg>
+</argList>
+</formula>
+<source rule="up_mon_fun" ruleApp="up_mon_fun([24,25],[(c4,e)])" >
+<idList>
+<id>24</id>
+<id>25</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="28" id="28" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>fight</llf>
+<argList>
+<arg>c4</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([26])" >
+<idList>
+<id>26</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="29" id="29" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing</llf>
+<argList>
+<arg>c4</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([26])" >
+<idList>
+<id>26</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="30" id="30" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing@fight</llf>
+<argList>
+<arg>c5</arg>
+</argList>
+</formula>
+<source rule="tr_a" ruleApp="tr_a([23],[(c5,e)])" >
+<idList>
+<id>23</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="31" id="31" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+<arg>c5</arg>
+</argList>
+</formula>
+<source rule="tr_a" ruleApp="tr_a([23],[(c5,e)])" >
+<idList>
+<id>23</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="32" id="32" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>in@c5@spar@c3</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([31])" >
+<idList>
+<id>31</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="33" id="33" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>fight</llf>
+<argList>
+<arg>c5</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([30])" >
+<idList>
+<id>30</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="34" id="34" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing</llf>
+<argList>
+<arg>c5</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([30])" >
+<idList>
+<id>30</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="35" id="35" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>in@c5@spar</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([32])" >
+<idList>
+<id>32</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="36" id="36" >
+<formula sign="true" >
+<modList>
+<mod>in@c5</mod>
+</modList>
+<llf>spar</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="push_mod" ruleApp="push_mod([35])" >
+<idList>
+<id>35</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="35" id="35" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>in@c5@spar</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="mods_vp" ruleApp="mods_vp([36])" >
+<idList>
+<id>36</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="37" id="37" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c1,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c1</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="40" id="40" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c2,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c2</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="27" id="27" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c4</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c4,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c4</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="49" id="49" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c5</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c5,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c5</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="55" id="55" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>be@(&#955;_554,a@(kickboxing@fight)@(&#955;_776,in@_776@spar@_554))</llf>
+<argList>
+<arg>c6</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([1,21],[(c6,e)])" >
+<idList>
+<id>1</id>
+<id>21</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="56" id="56" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+<arg>c6</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([1,21],[(c6,e)])" >
+<idList>
+<id>1</id>
+<id>21</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="62" id="62" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>in@c6@spar@c3</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([56])" >
+<idList>
+<id>56</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="68" id="68" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_554,a@(kickboxing@fight)@(&#955;_776,in@_776@spar@_554))</llf>
+<argList>
+<arg>c6</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([55])" >
+<idList>
+<id>55</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="72" id="72" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>a@(kickboxing@fight)@(&#955;_776,in@_776@spar@c6)</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([68])" >
+<idList>
+<id>68</id>
+</idList>
+</source>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+<tree>
+<node absId="57" id="57" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>two@(young@woman)</llf>
+<argList>
+<arg>(&#955;_776,in@_776@spar@c3)</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([1,21],[(c6,e)])" >
+<idList>
+<id>1</id>
+<id>21</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="58" id="58" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>a@(kickboxing@match)</llf>
+<argList>
+<arg>(&#955;_776,in@_776@spar@c3)</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([1,21],[(c6,e)])" >
+<idList>
+<id>1</id>
+<id>21</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="63" id="63" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>young@woman</llf>
+<argList>
+<arg>c7</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([57,58],[(c7,e)])" >
+<idList>
+<id>57</id>
+<id>58</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="64" id="64" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c7</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([57,58],[(c7,e)])" >
+<idList>
+<id>57</id>
+<id>58</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="69" id="69" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>woman</llf>
+<argList>
+<arg>c7</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([63])" >
+<idList>
+<id>63</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="70" id="70" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>young</llf>
+<argList>
+<arg>c7</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([63])" >
+<idList>
+<id>63</id>
+</idList>
+</source>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+<tree>
+<node absId="65" id="65" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>two</llf>
+<argList>
+<arg>kickboxing@match</arg>
+<arg>(&#955;_776,in@_776@spar@c3)</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([57,58],[(c7,e)])" >
+<idList>
+<id>57</id>
+<id>58</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="66" id="66" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>a</llf>
+<argList>
+<arg>kickboxing@match</arg>
+<arg>(&#955;_776,in@_776@spar@c3)</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([57,58],[(c7,e)])" >
+<idList>
+<id>57</id>
+<id>58</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node>
+<closer>
+<closer_ids>[65,66]</closer_ids>
+<closer_rule>cl_subsumption</closer_rule>
+</closer>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+<tree>
+<node absId="50" id="50" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c5</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c5,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c5</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="51" id="51" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+<arg>c5</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c5,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c5</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="59" id="59" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>in@c5@spar@c3</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([51])" >
+<idList>
+<id>51</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node>
+<closer>
+<closer_ids>[59,32]</closer_ids>
+<closer_rule>cl_subsumption</closer_rule>
+</closer>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+<tree>
+<node absId="44" id="44" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c4</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c4,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c4</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="45" id="45" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+<arg>c4</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c4,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c4</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node>
+<closer>
+<closer_ids>[44,27]</closer_ids>
+<closer_rule>cl_subsumption</closer_rule>
+</closer>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+<tree>
+<node absId="41" id="41" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c2,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c2</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="42" id="42" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c2,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c2</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="46" id="46" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>in@c2@spar@c3</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([42])" >
+<idList>
+<id>42</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="52" id="52" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>match</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([41])" >
+<idList>
+<id>41</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="53" id="53" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([41])" >
+<idList>
+<id>41</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="60" id="60" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>in@c2@spar</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([46])" >
+<idList>
+<id>46</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="67" id="67" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+<arg>c2</arg>
+</argList>
+</formula>
+<source rule="fl_a_c" ruleApp="fl_a_c([(c2,e)],[21,41])" >
+<idList>
+<id>21</id>
+<id>41</id>
+</idList>
+<oldConstList>
+<oldConst>c2</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="46" id="46" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>in@c2@spar@c3</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([67])" >
+<idList>
+<id>67</id>
+</idList>
+</source>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+<tree>
+<node absId="38" id="38" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing@match</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c1,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c1</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="39" id="39" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="fl_a" ruleApp="fl_a([(c1,e)],[21])" >
+<idList>
+<id>21</id>
+</idList>
+<oldConstList>
+<oldConst>c1</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="43" id="43" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>in@c1@spar@c3</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([39])" >
+<idList>
+<id>39</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="47" id="47" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>match</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([38])" >
+<idList>
+<id>38</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="48" id="48" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>kickboxing</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="int_mod_tr" ruleApp="int_mod_tr([38])" >
+<idList>
+<id>38</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="54" id="54" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>in@c1@spar</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([43])" >
+<idList>
+<id>43</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="61" id="61" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>(&#955;_776,in@_776@spar@c3)</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="fl_a_c" ruleApp="fl_a_c([(c1,e)],[21,38])" >
+<idList>
+<id>21</id>
+<id>38</id>
+</idList>
+<oldConstList>
+<oldConst>c1</oldConst>
+</oldConstList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="43" id="43" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>in@c1@spar@c3</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([61])" >
+<idList>
+<id>61</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="71" id="71" >
+<formula sign="false" >
+<modList>
+<mod>in@c1</mod>
+</modList>
+<llf>spar</llf>
+<argList>
+<arg>c3</arg>
+</argList>
+</formula>
+<source rule="push_mod" ruleApp="push_mod([54])" >
+<idList>
+<id>54</id>
+</idList>
+</source>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+<tree>
+<node absId="18" id="18" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>two@(young@woman)</llf>
+<argList>
+<arg>be@(&#955;_1286,a@(kickboxing@match)@(&#955;_776,in@_776@spar@_1286))</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([1,2],[(c3,e)])" >
+<idList>
+<id>1</id>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="19" id="19" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>two@woman</llf>
+<argList>
+<arg>be@(&#955;_1286,a@(kickboxing@match)@(&#955;_776,in@_776@spar@_1286))</arg>
+</argList>
+</formula>
+<source rule="up_mon" ruleApp="up_mon([1,2],[(c3,e)])" >
+<idList>
+<id>1</id>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node>
+<closer>
+<closer_ids>[18,19]</closer_ids>
+<closer_rule>cl_subsumption_complex</closer_rule>
+</closer>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</tableau>

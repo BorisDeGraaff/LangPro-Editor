@@ -1,0 +1,32 @@
+#tree-simple {
+  /* height: 500px;*/
+}
+
+.true{
+    background-color: rgb(110, 201, 110);
+}
+
+.false{
+    background-color: rgb(209, 137, 137);
+}
+.closer{
+  background-color: rgb(182, 104, 182);
+}
+
+.closure-closed{
+  background-color: bisque  ;
+}
+
+.closer-open{
+  background-color: aquamarine;
+}
+
+.node-llf { font-weight: bold; margin: 1px;}
+
+.node{
+
+}
+
+p{
+  margin: 1px
+}

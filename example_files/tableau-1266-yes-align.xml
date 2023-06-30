@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl_dtd/tableau.xsl"?>
+<!DOCTYPE tableau SYSTEM "xsl_dtd/tableau.dtd">
+<tableau>
+<problem id="1266" answer="yes" >
+<premise id="793" >A band is playing on a stage</premise>
+<conclusion id="796" >A band is playing onstage</conclusion>
+</problem>
+<tree>
+<node absId="1" id="1" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>be@(&#955;_362,a@stage@(&#955;_518,on@_518@play@_362))@'a@band'</llf>
+<argList>
+</argList>
+</formula>
+</node>
+<subTrees>
+<tree>
+<node absId="2" id="2" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>be@(onstage@play)@'a@band'</llf>
+<argList>
+</argList>
+</formula>
+</node>
+<subTrees>
+<tree>
+<node absId="3" id="3" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>be@(onstage@play)</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([2])" >
+<idList>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="4" id="4" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>onstage@play</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([3])" >
+<idList>
+<id>3</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="5" id="5" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>be@(&#955;_362,a@stage@(&#955;_518,on@_518@play@_362))</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([1])" >
+<idList>
+<id>1</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="6" id="6" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_362,a@stage@(&#955;_518,on@_518@play@_362))</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([5])" >
+<idList>
+<id>5</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="7" id="7" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>a@stage@(&#955;_518,on@_518@play@'a@band')</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([6])" >
+<idList>
+<id>6</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="8" id="8" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>play@onstage</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="pr_v_v_pr" ruleApp="pr_v_v_pr([4])" >
+<idList>
+<id>4</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="9" id="9" >
+<formula sign="false" >
+<modList>
+<mod>onstage</mod>
+</modList>
+<llf>play</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="push_mod" ruleApp="push_mod([4])" >
+<idList>
+<id>4</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="10" id="10" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>be@(&#955;_362,a@stage@(&#955;_518,on@_518@play@_362))</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="same_args_tf" ruleApp="same_args_tf([1,2])" >
+<idList>
+<id>1</id>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="11" id="11" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>be@(onstage@play)</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="same_args_tf" ruleApp="same_args_tf([1,2])" >
+<idList>
+<id>1</id>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="4" id="4" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>onstage@play</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([11])" >
+<idList>
+<id>11</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="12" id="12" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_362,a@stage@(&#955;_518,on@_518@play@_362))</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([10])" >
+<idList>
+<id>10</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="7" id="7" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>a@stage@(&#955;_518,on@_518@play@'a@band')</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([12])" >
+<idList>
+<id>12</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="13" id="13" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>stage</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="tr_a" ruleApp="tr_a([7],[(c1,e)])" >
+<idList>
+<id>7</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="14" id="14" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_518,on@_518@play@'a@band')</llf>
+<argList>
+<arg>c1</arg>
+</argList>
+</formula>
+<source rule="tr_a" ruleApp="tr_a([7],[(c1,e)])" >
+<idList>
+<id>7</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="15" id="15" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>on@c1@play@'a@band'</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([14])" >
+<idList>
+<id>14</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="16" id="16" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>on@c1@play</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([15])" >
+<idList>
+<id>15</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="17" id="17" >
+<formula sign="true" >
+<modList>
+<mod>on@c1</mod>
+</modList>
+<llf>play</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="push_mod" ruleApp="push_mod([16])" >
+<idList>
+<id>16</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="16" id="16" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>on@c1@play</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="mods_vp" ruleApp="mods_vp([17])" >
+<idList>
+<id>17</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="18" id="18" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>on@c1</llf>
+<argList>
+<arg>play</arg>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="same_args_tf" ruleApp="same_args_tf([16,4])" >
+<idList>
+<id>16</id>
+<id>4</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="19" id="19" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>onstage</llf>
+<argList>
+<arg>play</arg>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="same_args_tf" ruleApp="same_args_tf([16,4])" >
+<idList>
+<id>16</id>
+<id>4</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="20" id="20" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>on</llf>
+<argList>
+<arg>c1</arg>
+<arg>play</arg>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([18])" >
+<idList>
+<id>18</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="16" id="16" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>on@c1@play</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="same_args_tf" ruleApp="same_args_tf([15,2])" >
+<idList>
+<id>15</id>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="21" id="21" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>be@(onstage@play)</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="same_args_tf" ruleApp="same_args_tf([15,2])" >
+<idList>
+<id>15</id>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="4" id="4" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>onstage@play</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([21])" >
+<idList>
+<id>21</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="22" id="22" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>be@(&#955;_362,a@stage@(&#955;_518,on@_518@play@_362))</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="same_args_xx" ruleApp="same_args_xx([1,15])" >
+<idList>
+<id>1</id>
+<id>15</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="16" id="16" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>on@c1@play</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="same_args_xx" ruleApp="same_args_xx([1,15])" >
+<idList>
+<id>1</id>
+<id>15</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="23" id="23" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_362,a@stage@(&#955;_518,on@_518@play@_362))</llf>
+<argList>
+<arg>'a@band'</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([22])" >
+<idList>
+<id>22</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="7" id="7" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>a@stage@(&#955;_518,on@_518@play@'a@band')</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([23])" >
+<idList>
+<id>23</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node>
+<model>
+MODEL
+</model>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</tableau>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl_dtd/tableau.xsl"?>
+<!DOCTYPE tableau SYSTEM "xsl_dtd/tableau.dtd">
+<tableau>
+<problem id="150" answer="no" >
+<premise id="96" >A deer is jumping over a fence</premise>
+<conclusion id="98" >A deer isn't jumping over the fence</conclusion>
+</problem>
+<tree>
+<node absId="1" id="1" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>be@(&#955;_356,a@fence@(&#955;_512,over@_512@jump@_356))@'a@deer'</llf>
+<argList>
+</argList>
+</formula>
+</node>
+<subTrees>
+<tree>
+<node absId="2" id="2" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>not@(be@(&#955;_1016,the@fence@(&#955;_512,over@_512@jump@_1016)))@'a@deer'</llf>
+<argList>
+</argList>
+</formula>
+</node>
+<subTrees>
+<tree>
+<node absId="3" id="3" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>not@(be@(&#955;_1016,the@fence@(&#955;_512,over@_512@jump@_1016)))</llf>
+<argList>
+<arg>'a@deer'</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([2])" >
+<idList>
+<id>2</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="4" id="4" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>be@(&#955;_1016,the@fence@(&#955;_512,over@_512@jump@_1016))</llf>
+<argList>
+<arg>'a@deer'</arg>
+</argList>
+</formula>
+<source rule="neg_not" ruleApp="neg_not([3])" >
+<idList>
+<id>3</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="5" id="5" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>(&#955;_1016,the@fence@(&#955;_512,over@_512@jump@_1016))</llf>
+<argList>
+<arg>'a@deer'</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([4])" >
+<idList>
+<id>4</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="6" id="6" >
+<formula sign="false" >
+<modList>
+</modList>
+<llf>the@fence@(&#955;_512,over@_512@jump@'a@deer')</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([5])" >
+<idList>
+<id>5</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="7" id="7" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>be@(&#955;_356,a@fence@(&#955;_512,over@_512@jump@_356))</llf>
+<argList>
+<arg>'a@deer'</arg>
+</argList>
+</formula>
+<source rule="push_arg" ruleApp="push_arg([1])" >
+<idList>
+<id>1</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="8" id="8" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>(&#955;_356,a@fence@(&#955;_512,over@_512@jump@_356))</llf>
+<argList>
+<arg>'a@deer'</arg>
+</argList>
+</formula>
+<source rule="empty_mod" ruleApp="empty_mod([7])" >
+<idList>
+<id>7</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node absId="9" id="9" >
+<formula sign="true" >
+<modList>
+</modList>
+<llf>a@fence@(&#955;_512,over@_512@jump@'a@deer')</llf>
+<argList>
+</argList>
+</formula>
+<source rule="pull_arg" ruleApp="pull_arg([8])" >
+<idList>
+<id>8</id>
+</idList>
+</source>
+</node>
+<subTrees>
+<tree>
+<node>
+<closer>
+<closer_ids>[9,6]</closer_ids>
+<closer_rule>cl_subsumption</closer_rule>
+</closer>
+</node>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</subTrees>
+</tree>
+</tableau>

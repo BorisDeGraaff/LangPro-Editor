@@ -1,0 +1,950 @@
+{
+    "chart": {
+        "container": "#tree-simple"
+    },
+    "nodeStructure": {
+        "node": {
+            "formula": {
+                "modList": "",
+                "llf": "be@(λ_362,a@stage@(λ_518,on@_518@play@_362))@'a@band'",
+                "argList": "",
+                "_sign": "true"
+            },
+            "_absId": "1",
+            "_id": "1"
+        },
+        "HTMLclass": "true",
+        "text": {
+            "id": "1",
+            "llf": "LLF: be@(λ_362,a@stage@(λ_518,on@_518@play@_362))@'a@band'"
+        },
+        "children": [
+            {
+                "node": {
+                    "formula": {
+                        "modList": "",
+                        "llf": "be@(onstage@play)@'a@band'",
+                        "argList": "",
+                        "_sign": "false"
+                    },
+                    "_absId": "2",
+                    "_id": "2"
+                },
+                "HTMLclass": "false",
+                "text": {
+                    "id": "2",
+                    "llf": "LLF: be@(onstage@play)@'a@band'"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "formula": {
+                                "modList": "",
+                                "llf": "be@(onstage@play)",
+                                "argList": {
+                                    "arg": "'a@band'"
+                                },
+                                "_sign": "false"
+                            },
+                            "source": {
+                                "idList": {
+                                    "id": "2"
+                                },
+                                "_rule": "push_arg",
+                                "_ruleApp": "push_arg([2])"
+                            },
+                            "_absId": "3",
+                            "_id": "3"
+                        },
+                        "HTMLclass": "false",
+                        "text": {
+                            "id": "3",
+                            "llf": "LLF: be@(onstage@play)",
+                            "rule": "Rule applied:push_arg([2])",
+                            "argument_list": "Argument list: 'a@band'",
+                            "source_ids": "2"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "formula": {
+                                        "modList": "",
+                                        "llf": "onstage@play",
+                                        "argList": {
+                                            "arg": "'a@band'"
+                                        },
+                                        "_sign": "false"
+                                    },
+                                    "source": {
+                                        "idList": {
+                                            "id": "3"
+                                        },
+                                        "_rule": "empty_mod",
+                                        "_ruleApp": "empty_mod([3])"
+                                    },
+                                    "_absId": "4",
+                                    "_id": "4"
+                                },
+                                "HTMLclass": "false",
+                                "text": {
+                                    "id": "4",
+                                    "llf": "LLF: onstage@play",
+                                    "rule": "Rule applied:empty_mod([3])",
+                                    "argument_list": "Argument list: 'a@band'",
+                                    "source_ids": "3"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "formula": {
+                                                "modList": "",
+                                                "llf": "be@(λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                "argList": {
+                                                    "arg": "'a@band'"
+                                                },
+                                                "_sign": "true"
+                                            },
+                                            "source": {
+                                                "idList": {
+                                                    "id": "1"
+                                                },
+                                                "_rule": "push_arg",
+                                                "_ruleApp": "push_arg([1])"
+                                            },
+                                            "_absId": "5",
+                                            "_id": "5"
+                                        },
+                                        "HTMLclass": "true",
+                                        "text": {
+                                            "id": "5",
+                                            "llf": "LLF: be@(λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                            "rule": "Rule applied:push_arg([1])",
+                                            "argument_list": "Argument list: 'a@band'",
+                                            "source_ids": "1"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "formula": {
+                                                        "modList": "",
+                                                        "llf": "(λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                        "argList": {
+                                                            "arg": "'a@band'"
+                                                        },
+                                                        "_sign": "true"
+                                                    },
+                                                    "source": {
+                                                        "idList": {
+                                                            "id": "5"
+                                                        },
+                                                        "_rule": "empty_mod",
+                                                        "_ruleApp": "empty_mod([5])"
+                                                    },
+                                                    "_absId": "6",
+                                                    "_id": "6"
+                                                },
+                                                "HTMLclass": "true",
+                                                "text": {
+                                                    "id": "6",
+                                                    "llf": "LLF: (λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                    "rule": "Rule applied:empty_mod([5])",
+                                                    "argument_list": "Argument list: 'a@band'",
+                                                    "source_ids": "5"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "node": {
+                                                            "formula": {
+                                                                "modList": "",
+                                                                "llf": "a@stage@(λ_518,on@_518@play@'a@band')",
+                                                                "argList": "",
+                                                                "_sign": "true"
+                                                            },
+                                                            "source": {
+                                                                "idList": {
+                                                                    "id": "6"
+                                                                },
+                                                                "_rule": "pull_arg",
+                                                                "_ruleApp": "pull_arg([6])"
+                                                            },
+                                                            "_absId": "7",
+                                                            "_id": "7"
+                                                        },
+                                                        "HTMLclass": "true",
+                                                        "text": {
+                                                            "id": "7",
+                                                            "llf": "LLF: a@stage@(λ_518,on@_518@play@'a@band')",
+                                                            "rule": "Rule applied:pull_arg([6])",
+                                                            "source_ids": "6"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "node": {
+                                                                    "formula": {
+                                                                        "modList": "",
+                                                                        "llf": "play@onstage",
+                                                                        "argList": {
+                                                                            "arg": "'a@band'"
+                                                                        },
+                                                                        "_sign": "false"
+                                                                    },
+                                                                    "source": {
+                                                                        "idList": {
+                                                                            "id": "4"
+                                                                        },
+                                                                        "_rule": "pr_v_v_pr",
+                                                                        "_ruleApp": "pr_v_v_pr([4])"
+                                                                    },
+                                                                    "_absId": "8",
+                                                                    "_id": "8"
+                                                                },
+                                                                "HTMLclass": "false",
+                                                                "text": {
+                                                                    "id": "8",
+                                                                    "llf": "LLF: play@onstage",
+                                                                    "rule": "Rule applied:pr_v_v_pr([4])",
+                                                                    "argument_list": "Argument list: 'a@band'",
+                                                                    "source_ids": "4"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "node": {
+                                                                            "formula": {
+                                                                                "modList": {
+                                                                                    "mod": "onstage"
+                                                                                },
+                                                                                "llf": "play",
+                                                                                "argList": {
+                                                                                    "arg": "'a@band'"
+                                                                                },
+                                                                                "_sign": "false"
+                                                                            },
+                                                                            "source": {
+                                                                                "idList": {
+                                                                                    "id": "4"
+                                                                                },
+                                                                                "_rule": "push_mod",
+                                                                                "_ruleApp": "push_mod([4])"
+                                                                            },
+                                                                            "_absId": "9",
+                                                                            "_id": "9"
+                                                                        },
+                                                                        "HTMLclass": "false",
+                                                                        "text": {
+                                                                            "id": "9",
+                                                                            "llf": "LLF: play",
+                                                                            "modList": "Modlist onstage",
+                                                                            "rule": "Rule applied:push_mod([4])",
+                                                                            "argument_list": "Argument list: 'a@band'",
+                                                                            "source_ids": "4"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "node": {
+                                                                                    "formula": {
+                                                                                        "modList": "",
+                                                                                        "llf": "be@(λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                                                        "argList": {
+                                                                                            "arg": "'a@band'"
+                                                                                        },
+                                                                                        "_sign": "true"
+                                                                                    },
+                                                                                    "source": {
+                                                                                        "idList": {
+                                                                                            "id": [
+                                                                                                "1",
+                                                                                                "2"
+                                                                                            ]
+                                                                                        },
+                                                                                        "_rule": "same_args_tf",
+                                                                                        "_ruleApp": "same_args_tf([1,2])"
+                                                                                    },
+                                                                                    "_absId": "10",
+                                                                                    "_id": "10"
+                                                                                },
+                                                                                "HTMLclass": "true",
+                                                                                "text": {
+                                                                                    "id": "10",
+                                                                                    "llf": "LLF: be@(λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                                                    "rule": "Rule applied:same_args_tf([1,2])",
+                                                                                    "argument_list": "Argument list: 'a@band'",
+                                                                                    "source_ids": "Source ID's: 1,2"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "node": {
+                                                                                            "formula": {
+                                                                                                "modList": "",
+                                                                                                "llf": "be@(onstage@play)",
+                                                                                                "argList": {
+                                                                                                    "arg": "'a@band'"
+                                                                                                },
+                                                                                                "_sign": "false"
+                                                                                            },
+                                                                                            "source": {
+                                                                                                "idList": {
+                                                                                                    "id": [
+                                                                                                        "1",
+                                                                                                        "2"
+                                                                                                    ]
+                                                                                                },
+                                                                                                "_rule": "same_args_tf",
+                                                                                                "_ruleApp": "same_args_tf([1,2])"
+                                                                                            },
+                                                                                            "_absId": "11",
+                                                                                            "_id": "11"
+                                                                                        },
+                                                                                        "HTMLclass": "false",
+                                                                                        "text": {
+                                                                                            "id": "11",
+                                                                                            "llf": "LLF: be@(onstage@play)",
+                                                                                            "rule": "Rule applied:same_args_tf([1,2])",
+                                                                                            "argument_list": "Argument list: 'a@band'",
+                                                                                            "source_ids": "Source ID's: 1,2"
+                                                                                        },
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "node": {
+                                                                                                    "formula": {
+                                                                                                        "modList": "",
+                                                                                                        "llf": "onstage@play",
+                                                                                                        "argList": {
+                                                                                                            "arg": "'a@band'"
+                                                                                                        },
+                                                                                                        "_sign": "false"
+                                                                                                    },
+                                                                                                    "source": {
+                                                                                                        "idList": {
+                                                                                                            "id": "11"
+                                                                                                        },
+                                                                                                        "_rule": "empty_mod",
+                                                                                                        "_ruleApp": "empty_mod([11])"
+                                                                                                    },
+                                                                                                    "_absId": "4",
+                                                                                                    "_id": "4"
+                                                                                                },
+                                                                                                "HTMLclass": "false",
+                                                                                                "text": {
+                                                                                                    "id": "4",
+                                                                                                    "llf": "LLF: onstage@play",
+                                                                                                    "rule": "Rule applied:empty_mod([11])",
+                                                                                                    "argument_list": "Argument list: 'a@band'",
+                                                                                                    "source_ids": "11"
+                                                                                                },
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "node": {
+                                                                                                            "formula": {
+                                                                                                                "modList": "",
+                                                                                                                "llf": "(λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                                                                                "argList": {
+                                                                                                                    "arg": "'a@band'"
+                                                                                                                },
+                                                                                                                "_sign": "true"
+                                                                                                            },
+                                                                                                            "source": {
+                                                                                                                "idList": {
+                                                                                                                    "id": "10"
+                                                                                                                },
+                                                                                                                "_rule": "empty_mod",
+                                                                                                                "_ruleApp": "empty_mod([10])"
+                                                                                                            },
+                                                                                                            "_absId": "12",
+                                                                                                            "_id": "12"
+                                                                                                        },
+                                                                                                        "HTMLclass": "true",
+                                                                                                        "text": {
+                                                                                                            "id": "12",
+                                                                                                            "llf": "LLF: (λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                                                                            "rule": "Rule applied:empty_mod([10])",
+                                                                                                            "argument_list": "Argument list: 'a@band'",
+                                                                                                            "source_ids": "10"
+                                                                                                        },
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "node": {
+                                                                                                                    "formula": {
+                                                                                                                        "modList": "",
+                                                                                                                        "llf": "a@stage@(λ_518,on@_518@play@'a@band')",
+                                                                                                                        "argList": "",
+                                                                                                                        "_sign": "true"
+                                                                                                                    },
+                                                                                                                    "source": {
+                                                                                                                        "idList": {
+                                                                                                                            "id": "12"
+                                                                                                                        },
+                                                                                                                        "_rule": "pull_arg",
+                                                                                                                        "_ruleApp": "pull_arg([12])"
+                                                                                                                    },
+                                                                                                                    "_absId": "7",
+                                                                                                                    "_id": "7"
+                                                                                                                },
+                                                                                                                "HTMLclass": "true",
+                                                                                                                "text": {
+                                                                                                                    "id": "7",
+                                                                                                                    "llf": "LLF: a@stage@(λ_518,on@_518@play@'a@band')",
+                                                                                                                    "rule": "Rule applied:pull_arg([12])",
+                                                                                                                    "source_ids": "12"
+                                                                                                                },
+                                                                                                                "children": [
+                                                                                                                    {
+                                                                                                                        "node": {
+                                                                                                                            "formula": {
+                                                                                                                                "modList": "",
+                                                                                                                                "llf": "stage",
+                                                                                                                                "argList": {
+                                                                                                                                    "arg": "c1"
+                                                                                                                                },
+                                                                                                                                "_sign": "true"
+                                                                                                                            },
+                                                                                                                            "source": {
+                                                                                                                                "idList": {
+                                                                                                                                    "id": "7"
+                                                                                                                                },
+                                                                                                                                "_rule": "tr_a",
+                                                                                                                                "_ruleApp": "tr_a([7],[(c1,e)])"
+                                                                                                                            },
+                                                                                                                            "_absId": "13",
+                                                                                                                            "_id": "13"
+                                                                                                                        },
+                                                                                                                        "HTMLclass": "true",
+                                                                                                                        "text": {
+                                                                                                                            "id": "13",
+                                                                                                                            "llf": "LLF: stage",
+                                                                                                                            "rule": "Rule applied:tr_a([7],[(c1,e)])",
+                                                                                                                            "argument_list": "Argument list: c1",
+                                                                                                                            "source_ids": "7"
+                                                                                                                        },
+                                                                                                                        "children": [
+                                                                                                                            {
+                                                                                                                                "node": {
+                                                                                                                                    "formula": {
+                                                                                                                                        "modList": "",
+                                                                                                                                        "llf": "(λ_518,on@_518@play@'a@band')",
+                                                                                                                                        "argList": {
+                                                                                                                                            "arg": "c1"
+                                                                                                                                        },
+                                                                                                                                        "_sign": "true"
+                                                                                                                                    },
+                                                                                                                                    "source": {
+                                                                                                                                        "idList": {
+                                                                                                                                            "id": "7"
+                                                                                                                                        },
+                                                                                                                                        "_rule": "tr_a",
+                                                                                                                                        "_ruleApp": "tr_a([7],[(c1,e)])"
+                                                                                                                                    },
+                                                                                                                                    "_absId": "14",
+                                                                                                                                    "_id": "14"
+                                                                                                                                },
+                                                                                                                                "HTMLclass": "true",
+                                                                                                                                "text": {
+                                                                                                                                    "id": "14",
+                                                                                                                                    "llf": "LLF: (λ_518,on@_518@play@'a@band')",
+                                                                                                                                    "rule": "Rule applied:tr_a([7],[(c1,e)])",
+                                                                                                                                    "argument_list": "Argument list: c1",
+                                                                                                                                    "source_ids": "7"
+                                                                                                                                },
+                                                                                                                                "children": [
+                                                                                                                                    {
+                                                                                                                                        "node": {
+                                                                                                                                            "formula": {
+                                                                                                                                                "modList": "",
+                                                                                                                                                "llf": "on@c1@play@'a@band'",
+                                                                                                                                                "argList": "",
+                                                                                                                                                "_sign": "true"
+                                                                                                                                            },
+                                                                                                                                            "source": {
+                                                                                                                                                "idList": {
+                                                                                                                                                    "id": "14"
+                                                                                                                                                },
+                                                                                                                                                "_rule": "pull_arg",
+                                                                                                                                                "_ruleApp": "pull_arg([14])"
+                                                                                                                                            },
+                                                                                                                                            "_absId": "15",
+                                                                                                                                            "_id": "15"
+                                                                                                                                        },
+                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                        "text": {
+                                                                                                                                            "id": "15",
+                                                                                                                                            "llf": "LLF: on@c1@play@'a@band'",
+                                                                                                                                            "rule": "Rule applied:pull_arg([14])",
+                                                                                                                                            "source_ids": "14"
+                                                                                                                                        },
+                                                                                                                                        "children": [
+                                                                                                                                            {
+                                                                                                                                                "node": {
+                                                                                                                                                    "formula": {
+                                                                                                                                                        "modList": "",
+                                                                                                                                                        "llf": "on@c1@play",
+                                                                                                                                                        "argList": {
+                                                                                                                                                            "arg": "'a@band'"
+                                                                                                                                                        },
+                                                                                                                                                        "_sign": "true"
+                                                                                                                                                    },
+                                                                                                                                                    "source": {
+                                                                                                                                                        "idList": {
+                                                                                                                                                            "id": "15"
+                                                                                                                                                        },
+                                                                                                                                                        "_rule": "push_arg",
+                                                                                                                                                        "_ruleApp": "push_arg([15])"
+                                                                                                                                                    },
+                                                                                                                                                    "_absId": "16",
+                                                                                                                                                    "_id": "16"
+                                                                                                                                                },
+                                                                                                                                                "HTMLclass": "true",
+                                                                                                                                                "text": {
+                                                                                                                                                    "id": "16",
+                                                                                                                                                    "llf": "LLF: on@c1@play",
+                                                                                                                                                    "rule": "Rule applied:push_arg([15])",
+                                                                                                                                                    "argument_list": "Argument list: 'a@band'",
+                                                                                                                                                    "source_ids": "15"
+                                                                                                                                                },
+                                                                                                                                                "children": [
+                                                                                                                                                    {
+                                                                                                                                                        "node": {
+                                                                                                                                                            "formula": {
+                                                                                                                                                                "modList": {
+                                                                                                                                                                    "mod": "on@c1"
+                                                                                                                                                                },
+                                                                                                                                                                "llf": "play",
+                                                                                                                                                                "argList": {
+                                                                                                                                                                    "arg": "'a@band'"
+                                                                                                                                                                },
+                                                                                                                                                                "_sign": "true"
+                                                                                                                                                            },
+                                                                                                                                                            "source": {
+                                                                                                                                                                "idList": {
+                                                                                                                                                                    "id": "16"
+                                                                                                                                                                },
+                                                                                                                                                                "_rule": "push_mod",
+                                                                                                                                                                "_ruleApp": "push_mod([16])"
+                                                                                                                                                            },
+                                                                                                                                                            "_absId": "17",
+                                                                                                                                                            "_id": "17"
+                                                                                                                                                        },
+                                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                                        "text": {
+                                                                                                                                                            "id": "17",
+                                                                                                                                                            "llf": "LLF: play",
+                                                                                                                                                            "modList": "Modlist on@c1",
+                                                                                                                                                            "rule": "Rule applied:push_mod([16])",
+                                                                                                                                                            "argument_list": "Argument list: 'a@band'",
+                                                                                                                                                            "source_ids": "16"
+                                                                                                                                                        },
+                                                                                                                                                        "children": [
+                                                                                                                                                            {
+                                                                                                                                                                "node": {
+                                                                                                                                                                    "formula": {
+                                                                                                                                                                        "modList": "",
+                                                                                                                                                                        "llf": "on@c1@play",
+                                                                                                                                                                        "argList": {
+                                                                                                                                                                            "arg": "'a@band'"
+                                                                                                                                                                        },
+                                                                                                                                                                        "_sign": "true"
+                                                                                                                                                                    },
+                                                                                                                                                                    "source": {
+                                                                                                                                                                        "idList": {
+                                                                                                                                                                            "id": "17"
+                                                                                                                                                                        },
+                                                                                                                                                                        "_rule": "mods_vp",
+                                                                                                                                                                        "_ruleApp": "mods_vp([17])"
+                                                                                                                                                                    },
+                                                                                                                                                                    "_absId": "16",
+                                                                                                                                                                    "_id": "16"
+                                                                                                                                                                },
+                                                                                                                                                                "HTMLclass": "true",
+                                                                                                                                                                "text": {
+                                                                                                                                                                    "id": "16",
+                                                                                                                                                                    "llf": "LLF: on@c1@play",
+                                                                                                                                                                    "rule": "Rule applied:mods_vp([17])",
+                                                                                                                                                                    "argument_list": "Argument list: 'a@band'",
+                                                                                                                                                                    "source_ids": "17"
+                                                                                                                                                                },
+                                                                                                                                                                "children": [
+                                                                                                                                                                    {
+                                                                                                                                                                        "node": {
+                                                                                                                                                                            "formula": {
+                                                                                                                                                                                "modList": "",
+                                                                                                                                                                                "llf": "on@c1",
+                                                                                                                                                                                "argList": {
+                                                                                                                                                                                    "arg": [
+                                                                                                                                                                                        "play",
+                                                                                                                                                                                        "'a@band'"
+                                                                                                                                                                                    ]
+                                                                                                                                                                                },
+                                                                                                                                                                                "_sign": "true"
+                                                                                                                                                                            },
+                                                                                                                                                                            "source": {
+                                                                                                                                                                                "idList": {
+                                                                                                                                                                                    "id": [
+                                                                                                                                                                                        "16",
+                                                                                                                                                                                        "4"
+                                                                                                                                                                                    ]
+                                                                                                                                                                                },
+                                                                                                                                                                                "_rule": "same_args_tf",
+                                                                                                                                                                                "_ruleApp": "same_args_tf([16,4])"
+                                                                                                                                                                            },
+                                                                                                                                                                            "_absId": "18",
+                                                                                                                                                                            "_id": "18"
+                                                                                                                                                                        },
+                                                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                                                        "text": {
+                                                                                                                                                                            "id": "18",
+                                                                                                                                                                            "llf": "LLF: on@c1",
+                                                                                                                                                                            "rule": "Rule applied:same_args_tf([16,4])",
+                                                                                                                                                                            "argument_list": "Argument list: play,'a@band'",
+                                                                                                                                                                            "source_ids": "Source ID's: 16,4"
+                                                                                                                                                                        },
+                                                                                                                                                                        "children": [
+                                                                                                                                                                            {
+                                                                                                                                                                                "node": {
+                                                                                                                                                                                    "formula": {
+                                                                                                                                                                                        "modList": "",
+                                                                                                                                                                                        "llf": "onstage",
+                                                                                                                                                                                        "argList": {
+                                                                                                                                                                                            "arg": [
+                                                                                                                                                                                                "play",
+                                                                                                                                                                                                "'a@band'"
+                                                                                                                                                                                            ]
+                                                                                                                                                                                        },
+                                                                                                                                                                                        "_sign": "false"
+                                                                                                                                                                                    },
+                                                                                                                                                                                    "source": {
+                                                                                                                                                                                        "idList": {
+                                                                                                                                                                                            "id": [
+                                                                                                                                                                                                "16",
+                                                                                                                                                                                                "4"
+                                                                                                                                                                                            ]
+                                                                                                                                                                                        },
+                                                                                                                                                                                        "_rule": "same_args_tf",
+                                                                                                                                                                                        "_ruleApp": "same_args_tf([16,4])"
+                                                                                                                                                                                    },
+                                                                                                                                                                                    "_absId": "19",
+                                                                                                                                                                                    "_id": "19"
+                                                                                                                                                                                },
+                                                                                                                                                                                "HTMLclass": "false",
+                                                                                                                                                                                "text": {
+                                                                                                                                                                                    "id": "19",
+                                                                                                                                                                                    "llf": "LLF: onstage",
+                                                                                                                                                                                    "rule": "Rule applied:same_args_tf([16,4])",
+                                                                                                                                                                                    "argument_list": "Argument list: play,'a@band'",
+                                                                                                                                                                                    "source_ids": "Source ID's: 16,4"
+                                                                                                                                                                                },
+                                                                                                                                                                                "children": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                        "node": {
+                                                                                                                                                                                            "formula": {
+                                                                                                                                                                                                "modList": "",
+                                                                                                                                                                                                "llf": "on",
+                                                                                                                                                                                                "argList": {
+                                                                                                                                                                                                    "arg": [
+                                                                                                                                                                                                        "c1",
+                                                                                                                                                                                                        "play",
+                                                                                                                                                                                                        "'a@band'"
+                                                                                                                                                                                                    ]
+                                                                                                                                                                                                },
+                                                                                                                                                                                                "_sign": "true"
+                                                                                                                                                                                            },
+                                                                                                                                                                                            "source": {
+                                                                                                                                                                                                "idList": {
+                                                                                                                                                                                                    "id": "18"
+                                                                                                                                                                                                },
+                                                                                                                                                                                                "_rule": "push_arg",
+                                                                                                                                                                                                "_ruleApp": "push_arg([18])"
+                                                                                                                                                                                            },
+                                                                                                                                                                                            "_absId": "20",
+                                                                                                                                                                                            "_id": "20"
+                                                                                                                                                                                        },
+                                                                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                                                                        "text": {
+                                                                                                                                                                                            "id": "20",
+                                                                                                                                                                                            "llf": "LLF: on",
+                                                                                                                                                                                            "rule": "Rule applied:push_arg([18])",
+                                                                                                                                                                                            "argument_list": "Argument list: c1,play,'a@band'",
+                                                                                                                                                                                            "source_ids": "18"
+                                                                                                                                                                                        },
+                                                                                                                                                                                        "children": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                                "node": {
+                                                                                                                                                                                                    "formula": {
+                                                                                                                                                                                                        "modList": "",
+                                                                                                                                                                                                        "llf": "on@c1@play",
+                                                                                                                                                                                                        "argList": {
+                                                                                                                                                                                                            "arg": "'a@band'"
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        "_sign": "true"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    "source": {
+                                                                                                                                                                                                        "idList": {
+                                                                                                                                                                                                            "id": [
+                                                                                                                                                                                                                "15",
+                                                                                                                                                                                                                "2"
+                                                                                                                                                                                                            ]
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        "_rule": "same_args_tf",
+                                                                                                                                                                                                        "_ruleApp": "same_args_tf([15,2])"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    "_absId": "16",
+                                                                                                                                                                                                    "_id": "16"
+                                                                                                                                                                                                },
+                                                                                                                                                                                                "HTMLclass": "true",
+                                                                                                                                                                                                "text": {
+                                                                                                                                                                                                    "id": "16",
+                                                                                                                                                                                                    "llf": "LLF: on@c1@play",
+                                                                                                                                                                                                    "rule": "Rule applied:same_args_tf([15,2])",
+                                                                                                                                                                                                    "argument_list": "Argument list: 'a@band'",
+                                                                                                                                                                                                    "source_ids": "Source ID's: 15,2"
+                                                                                                                                                                                                },
+                                                                                                                                                                                                "children": [
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                        "node": {
+                                                                                                                                                                                                            "formula": {
+                                                                                                                                                                                                                "modList": "",
+                                                                                                                                                                                                                "llf": "be@(onstage@play)",
+                                                                                                                                                                                                                "argList": {
+                                                                                                                                                                                                                    "arg": "'a@band'"
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                "_sign": "false"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            "source": {
+                                                                                                                                                                                                                "idList": {
+                                                                                                                                                                                                                    "id": [
+                                                                                                                                                                                                                        "15",
+                                                                                                                                                                                                                        "2"
+                                                                                                                                                                                                                    ]
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                "_rule": "same_args_tf",
+                                                                                                                                                                                                                "_ruleApp": "same_args_tf([15,2])"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            "_absId": "21",
+                                                                                                                                                                                                            "_id": "21"
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        "HTMLclass": "false",
+                                                                                                                                                                                                        "text": {
+                                                                                                                                                                                                            "id": "21",
+                                                                                                                                                                                                            "llf": "LLF: be@(onstage@play)",
+                                                                                                                                                                                                            "rule": "Rule applied:same_args_tf([15,2])",
+                                                                                                                                                                                                            "argument_list": "Argument list: 'a@band'",
+                                                                                                                                                                                                            "source_ids": "Source ID's: 15,2"
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        "children": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "node": {
+                                                                                                                                                                                                                    "formula": {
+                                                                                                                                                                                                                        "modList": "",
+                                                                                                                                                                                                                        "llf": "onstage@play",
+                                                                                                                                                                                                                        "argList": {
+                                                                                                                                                                                                                            "arg": "'a@band'"
+                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                        "_sign": "false"
+                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                    "source": {
+                                                                                                                                                                                                                        "idList": {
+                                                                                                                                                                                                                            "id": "21"
+                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                        "_rule": "empty_mod",
+                                                                                                                                                                                                                        "_ruleApp": "empty_mod([21])"
+                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                    "_absId": "4",
+                                                                                                                                                                                                                    "_id": "4"
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                "HTMLclass": "false",
+                                                                                                                                                                                                                "text": {
+                                                                                                                                                                                                                    "id": "4",
+                                                                                                                                                                                                                    "llf": "LLF: onstage@play",
+                                                                                                                                                                                                                    "rule": "Rule applied:empty_mod([21])",
+                                                                                                                                                                                                                    "argument_list": "Argument list: 'a@band'",
+                                                                                                                                                                                                                    "source_ids": "21"
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                "children": [
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                        "node": {
+                                                                                                                                                                                                                            "formula": {
+                                                                                                                                                                                                                                "modList": "",
+                                                                                                                                                                                                                                "llf": "be@(λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                                                                                                                                                                                                "argList": {
+                                                                                                                                                                                                                                    "arg": "'a@band'"
+                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                "_sign": "true"
+                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                            "source": {
+                                                                                                                                                                                                                                "idList": {
+                                                                                                                                                                                                                                    "id": [
+                                                                                                                                                                                                                                        "1",
+                                                                                                                                                                                                                                        "15"
+                                                                                                                                                                                                                                    ]
+                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                "_rule": "same_args_xx",
+                                                                                                                                                                                                                                "_ruleApp": "same_args_xx([1,15])"
+                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                            "_absId": "22",
+                                                                                                                                                                                                                            "_id": "22"
+                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                                                                                                        "text": {
+                                                                                                                                                                                                                            "id": "22",
+                                                                                                                                                                                                                            "llf": "LLF: be@(λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                                                                                                                                                                                            "rule": "Rule applied:same_args_xx([1,15])",
+                                                                                                                                                                                                                            "argument_list": "Argument list: 'a@band'",
+                                                                                                                                                                                                                            "source_ids": "Source ID's: 1,15"
+                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                        "children": [
+                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                "node": {
+                                                                                                                                                                                                                                    "formula": {
+                                                                                                                                                                                                                                        "modList": "",
+                                                                                                                                                                                                                                        "llf": "on@c1@play",
+                                                                                                                                                                                                                                        "argList": {
+                                                                                                                                                                                                                                            "arg": "'a@band'"
+                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                        "_sign": "true"
+                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                    "source": {
+                                                                                                                                                                                                                                        "idList": {
+                                                                                                                                                                                                                                            "id": [
+                                                                                                                                                                                                                                                "1",
+                                                                                                                                                                                                                                                "15"
+                                                                                                                                                                                                                                            ]
+                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                        "_rule": "same_args_xx",
+                                                                                                                                                                                                                                        "_ruleApp": "same_args_xx([1,15])"
+                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                    "_absId": "16",
+                                                                                                                                                                                                                                    "_id": "16"
+                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                "HTMLclass": "true",
+                                                                                                                                                                                                                                "text": {
+                                                                                                                                                                                                                                    "id": "16",
+                                                                                                                                                                                                                                    "llf": "LLF: on@c1@play",
+                                                                                                                                                                                                                                    "rule": "Rule applied:same_args_xx([1,15])",
+                                                                                                                                                                                                                                    "argument_list": "Argument list: 'a@band'",
+                                                                                                                                                                                                                                    "source_ids": "Source ID's: 1,15"
+                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                "children": [
+                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                        "node": {
+                                                                                                                                                                                                                                            "formula": {
+                                                                                                                                                                                                                                                "modList": "",
+                                                                                                                                                                                                                                                "llf": "(λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                                                                                                                                                                                                                "argList": {
+                                                                                                                                                                                                                                                    "arg": "'a@band'"
+                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                "_sign": "true"
+                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                            "source": {
+                                                                                                                                                                                                                                                "idList": {
+                                                                                                                                                                                                                                                    "id": "22"
+                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                "_rule": "empty_mod",
+                                                                                                                                                                                                                                                "_ruleApp": "empty_mod([22])"
+                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                            "_absId": "23",
+                                                                                                                                                                                                                                            "_id": "23"
+                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                                                                                                                        "text": {
+                                                                                                                                                                                                                                            "id": "23",
+                                                                                                                                                                                                                                            "llf": "LLF: (λ_362,a@stage@(λ_518,on@_518@play@_362))",
+                                                                                                                                                                                                                                            "rule": "Rule applied:empty_mod([22])",
+                                                                                                                                                                                                                                            "argument_list": "Argument list: 'a@band'",
+                                                                                                                                                                                                                                            "source_ids": "22"
+                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                        "children": [
+                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                "node": {
+                                                                                                                                                                                                                                                    "formula": {
+                                                                                                                                                                                                                                                        "modList": "",
+                                                                                                                                                                                                                                                        "llf": "a@stage@(λ_518,on@_518@play@'a@band')",
+                                                                                                                                                                                                                                                        "argList": "",
+                                                                                                                                                                                                                                                        "_sign": "true"
+                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                    "source": {
+                                                                                                                                                                                                                                                        "idList": {
+                                                                                                                                                                                                                                                            "id": "23"
+                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                        "_rule": "pull_arg",
+                                                                                                                                                                                                                                                        "_ruleApp": "pull_arg([23])"
+                                                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                                                    "_absId": "7",
+                                                                                                                                                                                                                                                    "_id": "7"
+                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                "HTMLclass": "true",
+                                                                                                                                                                                                                                                "text": {
+                                                                                                                                                                                                                                                    "id": "7",
+                                                                                                                                                                                                                                                    "llf": "LLF: a@stage@(λ_518,on@_518@play@'a@band')",
+                                                                                                                                                                                                                                                    "rule": "Rule applied:pull_arg([23])",
+                                                                                                                                                                                                                                                    "source_ids": "23"
+                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                "children": [
+                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                        "node": {
+                                                                                                                                                                                                                                                            "model": "MODEL",
+                                                                                                                                                                                                                                                            "_id": 1000
+                                                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                                                        "HTMLclass": "closer-open",
+                                                                                                                                                                                                                                                        "text": {
+                                                                                                                                                                                                                                                            "id": 1000,
+                                                                                                                                                                                                                                                            "llf": "Open einde vanuit XML"
+                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                ]
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                ]
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                        ]
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                ]
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        ]
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                ]
+                                                                                                                                                                                            }
+                                                                                                                                                                                        ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                ]
+                                                                                                                                                                            }
+                                                                                                                                                                        ]
+                                                                                                                                                                    }
+                                                                                                                                                                ]
+                                                                                                                                                            }
+                                                                                                                                                        ]
+                                                                                                                                                    }
+                                                                                                                                                ]
+                                                                                                                                            }
+                                                                                                                                        ]
+                                                                                                                                    }
+                                                                                                                                ]
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

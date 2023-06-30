@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bachelor Thesis Boris</title>
+    <script src="js/eventHandlers.js"></script>
+    <script src="js/load_xml.js"></script>
+    <script src="js/load_example.js"></script>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="Treant.css" type="text/css"/>
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body>
+    <label for="avatar">Choose an XML file:</label>
+    <input type="file" id="XML_File" name="XML_File" accept=".xml" />
+    <button onclick=handleXMLUpload()>Upload</button>
+
+    <button id="preset1">Use example 1</button>
+    <button id="preset2">Use example 2</button>
+    <button id="preset3">Use example 3</button>
+    <button id="preset4">Use example 4</button>
+    <button onclick="exportJson()">Export Tableau as Json</button>
+    <div id="tree-simple"> </div>
+    
+    <!-- javascript -->
+    <script src="js/preset_button.js"></script>
+    <script src="xml2json.js"></script>
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="vendor/raphael.js"></script>
+    <script src="Treant.js"></script>
+    <script src="js/export.js"></script>
+  </body>
+</html>

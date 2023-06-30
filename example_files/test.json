@@ -1,0 +1,894 @@
+{
+    "chart": {
+        "container": "#tree-simple"
+    },
+    "nodeStructure": {
+        "node": {
+            "formula": {
+                "modList": "",
+                "llf": "two@(young@woman)@(be@(λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162)))",
+                "argList": "",
+                "_sign": "true"
+            },
+            "_absId": "1",
+            "_id": "1"
+        },
+        "HTMLclass": "true",
+        "text": {
+            "id": "1",
+            "llf": "LLF: two@(young@woman)@(be@(λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162)))"
+        },
+        "children": [
+            {
+                "node": {
+                    "formula": {
+                        "modList": "",
+                        "llf": "two@woman@(be@(λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912)))",
+                        "argList": "",
+                        "_sign": "false"
+                    },
+                    "_absId": "2",
+                    "_id": "2"
+                },
+                "HTMLclass": "false",
+                "text": {
+                    "id": "2",
+                    "llf": "LLF: two@woman@(be@(λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912)))"
+                },
+                "children": [
+                    {
+                        "node": {
+                            "formula": {
+                                "modList": "",
+                                "llf": "young@woman",
+                                "argList": {
+                                    "arg": "c1"
+                                },
+                                "_sign": "true"
+                            },
+                            "source": {
+                                "idList": {
+                                    "id": "1"
+                                },
+                                "_rule": "tr_a",
+                                "_ruleApp": "tr_a([1],[(c1,e)])"
+                            },
+                            "_absId": "3",
+                            "_id": "3"
+                        },
+                        "HTMLclass": "true",
+                        "text": {
+                            "id": "3",
+                            "llf": "LLF: young@woman",
+                            "rule": "Rule applied:tr_a([1],[(c1,e)])",
+                            "argument_list": "Argument list: c1",
+                            "source_ids": "1"
+                        },
+                        "children": [
+                            {
+                                "node": {
+                                    "formula": {
+                                        "modList": "",
+                                        "llf": "be@(λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162))",
+                                        "argList": {
+                                            "arg": "c1"
+                                        },
+                                        "_sign": "true"
+                                    },
+                                    "source": {
+                                        "idList": {
+                                            "id": "1"
+                                        },
+                                        "_rule": "tr_a",
+                                        "_ruleApp": "tr_a([1],[(c1,e)])"
+                                    },
+                                    "_absId": "4",
+                                    "_id": "4"
+                                },
+                                "HTMLclass": "true",
+                                "text": {
+                                    "id": "4",
+                                    "llf": "LLF: be@(λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162))",
+                                    "rule": "Rule applied:tr_a([1],[(c1,e)])",
+                                    "argument_list": "Argument list: c1",
+                                    "source_ids": "1"
+                                },
+                                "children": [
+                                    {
+                                        "node": {
+                                            "formula": {
+                                                "modList": "",
+                                                "llf": "(λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162))",
+                                                "argList": {
+                                                    "arg": "c1"
+                                                },
+                                                "_sign": "true"
+                                            },
+                                            "source": {
+                                                "idList": {
+                                                    "id": "4"
+                                                },
+                                                "_rule": "empty_mod",
+                                                "_ruleApp": "empty_mod([4])"
+                                            },
+                                            "_absId": "5",
+                                            "_id": "5"
+                                        },
+                                        "HTMLclass": "true",
+                                        "text": {
+                                            "id": "5",
+                                            "llf": "LLF: (λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162))",
+                                            "rule": "Rule applied:empty_mod([4])",
+                                            "argument_list": "Argument list: c1",
+                                            "source_ids": "4"
+                                        },
+                                        "children": [
+                                            {
+                                                "node": {
+                                                    "formula": {
+                                                        "modList": "",
+                                                        "llf": "a@(kickboxing@fight)@(λ_2384,in@_2384@spar@c1)",
+                                                        "argList": "",
+                                                        "_sign": "true"
+                                                    },
+                                                    "source": {
+                                                        "idList": {
+                                                            "id": "5"
+                                                        },
+                                                        "_rule": "pull_arg",
+                                                        "_ruleApp": "pull_arg([5])"
+                                                    },
+                                                    "_absId": "6",
+                                                    "_id": "6"
+                                                },
+                                                "HTMLclass": "true",
+                                                "text": {
+                                                    "id": "6",
+                                                    "llf": "LLF: a@(kickboxing@fight)@(λ_2384,in@_2384@spar@c1)",
+                                                    "rule": "Rule applied:pull_arg([5])",
+                                                    "source_ids": "5"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "node": {
+                                                            "formula": {
+                                                                "modList": "",
+                                                                "llf": "woman",
+                                                                "argList": {
+                                                                    "arg": "c1"
+                                                                },
+                                                                "_sign": "true"
+                                                            },
+                                                            "source": {
+                                                                "idList": {
+                                                                    "id": "3"
+                                                                },
+                                                                "_rule": "int_mod_tr",
+                                                                "_ruleApp": "int_mod_tr([3])"
+                                                            },
+                                                            "_absId": "7",
+                                                            "_id": "7"
+                                                        },
+                                                        "HTMLclass": "true",
+                                                        "text": {
+                                                            "id": "7",
+                                                            "llf": "LLF: woman",
+                                                            "rule": "Rule applied:int_mod_tr([3])",
+                                                            "argument_list": "Argument list: c1",
+                                                            "source_ids": "3"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "node": {
+                                                                    "formula": {
+                                                                        "modList": "",
+                                                                        "llf": "young",
+                                                                        "argList": {
+                                                                            "arg": "c1"
+                                                                        },
+                                                                        "_sign": "true"
+                                                                    },
+                                                                    "source": {
+                                                                        "idList": {
+                                                                            "id": "3"
+                                                                        },
+                                                                        "_rule": "int_mod_tr",
+                                                                        "_ruleApp": "int_mod_tr([3])"
+                                                                    },
+                                                                    "_absId": "8",
+                                                                    "_id": "8"
+                                                                },
+                                                                "HTMLclass": "true",
+                                                                "text": {
+                                                                    "id": "8",
+                                                                    "llf": "LLF: young",
+                                                                    "rule": "Rule applied:int_mod_tr([3])",
+                                                                    "argument_list": "Argument list: c1",
+                                                                    "source_ids": "3"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "node": {
+                                                                            "formula": {
+                                                                                "modList": "",
+                                                                                "llf": "kickboxing@fight",
+                                                                                "argList": {
+                                                                                    "arg": "c2"
+                                                                                },
+                                                                                "_sign": "true"
+                                                                            },
+                                                                            "source": {
+                                                                                "idList": {
+                                                                                    "id": "6"
+                                                                                },
+                                                                                "_rule": "tr_a",
+                                                                                "_ruleApp": "tr_a([6],[(c2,e)])"
+                                                                            },
+                                                                            "_absId": "9",
+                                                                            "_id": "9"
+                                                                        },
+                                                                        "HTMLclass": "true",
+                                                                        "text": {
+                                                                            "id": "9",
+                                                                            "llf": "LLF: kickboxing@fight",
+                                                                            "rule": "Rule applied:tr_a([6],[(c2,e)])",
+                                                                            "argument_list": "Argument list: c2",
+                                                                            "source_ids": "6"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "node": {
+                                                                                    "formula": {
+                                                                                        "modList": "",
+                                                                                        "llf": "(λ_2384,in@_2384@spar@c1)",
+                                                                                        "argList": {
+                                                                                            "arg": "c2"
+                                                                                        },
+                                                                                        "_sign": "true"
+                                                                                    },
+                                                                                    "source": {
+                                                                                        "idList": {
+                                                                                            "id": "6"
+                                                                                        },
+                                                                                        "_rule": "tr_a",
+                                                                                        "_ruleApp": "tr_a([6],[(c2,e)])"
+                                                                                    },
+                                                                                    "_absId": "10",
+                                                                                    "_id": "10"
+                                                                                },
+                                                                                "HTMLclass": "true",
+                                                                                "text": {
+                                                                                    "id": "10",
+                                                                                    "llf": "LLF: (λ_2384,in@_2384@spar@c1)",
+                                                                                    "rule": "Rule applied:tr_a([6],[(c2,e)])",
+                                                                                    "argument_list": "Argument list: c2",
+                                                                                    "source_ids": "6"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "node": {
+                                                                                            "formula": {
+                                                                                                "modList": "",
+                                                                                                "llf": "in@c2@spar@c1",
+                                                                                                "argList": "",
+                                                                                                "_sign": "true"
+                                                                                            },
+                                                                                            "source": {
+                                                                                                "idList": {
+                                                                                                    "id": "10"
+                                                                                                },
+                                                                                                "_rule": "pull_arg",
+                                                                                                "_ruleApp": "pull_arg([10])"
+                                                                                            },
+                                                                                            "_absId": "11",
+                                                                                            "_id": "11"
+                                                                                        },
+                                                                                        "HTMLclass": "true",
+                                                                                        "text": {
+                                                                                            "id": "11",
+                                                                                            "llf": "LLF: in@c2@spar@c1",
+                                                                                            "rule": "Rule applied:pull_arg([10])",
+                                                                                            "source_ids": "10"
+                                                                                        },
+                                                                                        "children": [
+                                                                                            {
+                                                                                                "node": {
+                                                                                                    "formula": {
+                                                                                                        "modList": "",
+                                                                                                        "llf": "fight",
+                                                                                                        "argList": {
+                                                                                                            "arg": "c2"
+                                                                                                        },
+                                                                                                        "_sign": "true"
+                                                                                                    },
+                                                                                                    "source": {
+                                                                                                        "idList": {
+                                                                                                            "id": "9"
+                                                                                                        },
+                                                                                                        "_rule": "int_mod_tr",
+                                                                                                        "_ruleApp": "int_mod_tr([9])"
+                                                                                                    },
+                                                                                                    "_absId": "12",
+                                                                                                    "_id": "12"
+                                                                                                },
+                                                                                                "HTMLclass": "true",
+                                                                                                "text": {
+                                                                                                    "id": "12",
+                                                                                                    "llf": "LLF: fight",
+                                                                                                    "rule": "Rule applied:int_mod_tr([9])",
+                                                                                                    "argument_list": "Argument list: c2",
+                                                                                                    "source_ids": "9"
+                                                                                                },
+                                                                                                "children": [
+                                                                                                    {
+                                                                                                        "node": {
+                                                                                                            "formula": {
+                                                                                                                "modList": "",
+                                                                                                                "llf": "kickboxing",
+                                                                                                                "argList": {
+                                                                                                                    "arg": "c2"
+                                                                                                                },
+                                                                                                                "_sign": "true"
+                                                                                                            },
+                                                                                                            "source": {
+                                                                                                                "idList": {
+                                                                                                                    "id": "9"
+                                                                                                                },
+                                                                                                                "_rule": "int_mod_tr",
+                                                                                                                "_ruleApp": "int_mod_tr([9])"
+                                                                                                            },
+                                                                                                            "_absId": "13",
+                                                                                                            "_id": "13"
+                                                                                                        },
+                                                                                                        "HTMLclass": "true",
+                                                                                                        "text": {
+                                                                                                            "id": "13",
+                                                                                                            "llf": "LLF: kickboxing",
+                                                                                                            "rule": "Rule applied:int_mod_tr([9])",
+                                                                                                            "argument_list": "Argument list: c2",
+                                                                                                            "source_ids": "9"
+                                                                                                        },
+                                                                                                        "children": [
+                                                                                                            {
+                                                                                                                "node": {
+                                                                                                                    "formula": {
+                                                                                                                        "modList": "",
+                                                                                                                        "llf": "in@c2@spar",
+                                                                                                                        "argList": {
+                                                                                                                            "arg": "c1"
+                                                                                                                        },
+                                                                                                                        "_sign": "true"
+                                                                                                                    },
+                                                                                                                    "source": {
+                                                                                                                        "idList": {
+                                                                                                                            "id": "11"
+                                                                                                                        },
+                                                                                                                        "_rule": "push_arg",
+                                                                                                                        "_ruleApp": "push_arg([11])"
+                                                                                                                    },
+                                                                                                                    "_absId": "14",
+                                                                                                                    "_id": "14"
+                                                                                                                },
+                                                                                                                "HTMLclass": "true",
+                                                                                                                "text": {
+                                                                                                                    "id": "14",
+                                                                                                                    "llf": "LLF: in@c2@spar",
+                                                                                                                    "rule": "Rule applied:push_arg([11])",
+                                                                                                                    "argument_list": "Argument list: c1",
+                                                                                                                    "source_ids": "11"
+                                                                                                                },
+                                                                                                                "children": [
+                                                                                                                    {
+                                                                                                                        "node": {
+                                                                                                                            "formula": {
+                                                                                                                                "modList": {
+                                                                                                                                    "mod": "in@c2"
+                                                                                                                                },
+                                                                                                                                "llf": "spar",
+                                                                                                                                "argList": {
+                                                                                                                                    "arg": "c1"
+                                                                                                                                },
+                                                                                                                                "_sign": "true"
+                                                                                                                            },
+                                                                                                                            "source": {
+                                                                                                                                "idList": {
+                                                                                                                                    "id": "14"
+                                                                                                                                },
+                                                                                                                                "_rule": "push_mod",
+                                                                                                                                "_ruleApp": "push_mod([14])"
+                                                                                                                            },
+                                                                                                                            "_absId": "15",
+                                                                                                                            "_id": "15"
+                                                                                                                        },
+                                                                                                                        "HTMLclass": "true",
+                                                                                                                        "text": {
+                                                                                                                            "id": "15",
+                                                                                                                            "llf": "LLF: spar",
+                                                                                                                            "modList": "Modlist in@c2",
+                                                                                                                            "rule": "Rule applied:push_mod([14])",
+                                                                                                                            "argument_list": "Argument list: c1",
+                                                                                                                            "source_ids": "14"
+                                                                                                                        },
+                                                                                                                        "children": [
+                                                                                                                            {
+                                                                                                                                "node": {
+                                                                                                                                    "formula": {
+                                                                                                                                        "modList": "",
+                                                                                                                                        "llf": "in@c2@spar",
+                                                                                                                                        "argList": {
+                                                                                                                                            "arg": "c1"
+                                                                                                                                        },
+                                                                                                                                        "_sign": "true"
+                                                                                                                                    },
+                                                                                                                                    "source": {
+                                                                                                                                        "idList": {
+                                                                                                                                            "id": "15"
+                                                                                                                                        },
+                                                                                                                                        "_rule": "mods_vp",
+                                                                                                                                        "_ruleApp": "mods_vp([15])"
+                                                                                                                                    },
+                                                                                                                                    "_absId": "14",
+                                                                                                                                    "_id": "14"
+                                                                                                                                },
+                                                                                                                                "HTMLclass": "true",
+                                                                                                                                "text": {
+                                                                                                                                    "id": "14",
+                                                                                                                                    "llf": "LLF: in@c2@spar",
+                                                                                                                                    "rule": "Rule applied:mods_vp([15])",
+                                                                                                                                    "argument_list": "Argument list: c1",
+                                                                                                                                    "source_ids": "15"
+                                                                                                                                },
+                                                                                                                                "children": [
+                                                                                                                                    {
+                                                                                                                                        "node": {
+                                                                                                                                            "formula": {
+                                                                                                                                                "modList": "",
+                                                                                                                                                "llf": "be@(λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162))",
+                                                                                                                                                "argList": {
+                                                                                                                                                    "arg": "c3"
+                                                                                                                                                },
+                                                                                                                                                "_sign": "true"
+                                                                                                                                            },
+                                                                                                                                            "source": {
+                                                                                                                                                "idList": {
+                                                                                                                                                    "id": [
+                                                                                                                                                        "1",
+                                                                                                                                                        "2"
+                                                                                                                                                    ]
+                                                                                                                                                },
+                                                                                                                                                "_rule": "up_mon",
+                                                                                                                                                "_ruleApp": "up_mon([1,2],[(c3,e)])"
+                                                                                                                                            },
+                                                                                                                                            "_absId": "16",
+                                                                                                                                            "_id": "16"
+                                                                                                                                        },
+                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                        "text": {
+                                                                                                                                            "id": "16",
+                                                                                                                                            "llf": "LLF: be@(λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162))",
+                                                                                                                                            "rule": "Rule applied:up_mon([1,2],[(c3,e)])",
+                                                                                                                                            "argument_list": "Argument list: c3",
+                                                                                                                                            "source_ids": "Source ID's: 1,2"
+                                                                                                                                        },
+                                                                                                                                        "children": [
+                                                                                                                                            {
+                                                                                                                                                "node": {
+                                                                                                                                                    "formula": {
+                                                                                                                                                        "modList": "",
+                                                                                                                                                        "llf": "be@(λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912))",
+                                                                                                                                                        "argList": {
+                                                                                                                                                            "arg": "c3"
+                                                                                                                                                        },
+                                                                                                                                                        "_sign": "false"
+                                                                                                                                                    },
+                                                                                                                                                    "source": {
+                                                                                                                                                        "idList": {
+                                                                                                                                                            "id": [
+                                                                                                                                                                "1",
+                                                                                                                                                                "2"
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        "_rule": "up_mon",
+                                                                                                                                                        "_ruleApp": "up_mon([1,2],[(c3,e)])"
+                                                                                                                                                    },
+                                                                                                                                                    "_absId": "17",
+                                                                                                                                                    "_id": "17"
+                                                                                                                                                },
+                                                                                                                                                "HTMLclass": "false",
+                                                                                                                                                "text": {
+                                                                                                                                                    "id": "17",
+                                                                                                                                                    "llf": "LLF: be@(λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912))",
+                                                                                                                                                    "rule": "Rule applied:up_mon([1,2],[(c3,e)])",
+                                                                                                                                                    "argument_list": "Argument list: c3",
+                                                                                                                                                    "source_ids": "Source ID's: 1,2"
+                                                                                                                                                },
+                                                                                                                                                "children": [
+                                                                                                                                                    {
+                                                                                                                                                        "node": {
+                                                                                                                                                            "formula": {
+                                                                                                                                                                "modList": "",
+                                                                                                                                                                "llf": "(λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912))",
+                                                                                                                                                                "argList": {
+                                                                                                                                                                    "arg": "c3"
+                                                                                                                                                                },
+                                                                                                                                                                "_sign": "false"
+                                                                                                                                                            },
+                                                                                                                                                            "source": {
+                                                                                                                                                                "idList": {
+                                                                                                                                                                    "id": "17"
+                                                                                                                                                                },
+                                                                                                                                                                "_rule": "empty_mod",
+                                                                                                                                                                "_ruleApp": "empty_mod([17])"
+                                                                                                                                                            },
+                                                                                                                                                            "_absId": "20",
+                                                                                                                                                            "_id": "20"
+                                                                                                                                                        },
+                                                                                                                                                        "HTMLclass": "false",
+                                                                                                                                                        "text": {
+                                                                                                                                                            "id": "20",
+                                                                                                                                                            "llf": "LLF: (λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912))",
+                                                                                                                                                            "rule": "Rule applied:empty_mod([17])",
+                                                                                                                                                            "argument_list": "Argument list: c3",
+                                                                                                                                                            "source_ids": "17"
+                                                                                                                                                        },
+                                                                                                                                                        "children": [
+                                                                                                                                                            {
+                                                                                                                                                                "node": {
+                                                                                                                                                                    "formula": {
+                                                                                                                                                                        "modList": "",
+                                                                                                                                                                        "llf": "a@(kickboxing@match)@(λ_2384,in@_2384@spar@c3)",
+                                                                                                                                                                        "argList": "",
+                                                                                                                                                                        "_sign": "false"
+                                                                                                                                                                    },
+                                                                                                                                                                    "source": {
+                                                                                                                                                                        "idList": {
+                                                                                                                                                                            "id": "20"
+                                                                                                                                                                        },
+                                                                                                                                                                        "_rule": "pull_arg",
+                                                                                                                                                                        "_ruleApp": "pull_arg([20])"
+                                                                                                                                                                    },
+                                                                                                                                                                    "_absId": "21",
+                                                                                                                                                                    "_id": "21"
+                                                                                                                                                                },
+                                                                                                                                                                "HTMLclass": "false",
+                                                                                                                                                                "text": {
+                                                                                                                                                                    "id": "21",
+                                                                                                                                                                    "llf": "LLF: a@(kickboxing@match)@(λ_2384,in@_2384@spar@c3)",
+                                                                                                                                                                    "rule": "Rule applied:pull_arg([20])",
+                                                                                                                                                                    "source_ids": "20"
+                                                                                                                                                                },
+                                                                                                                                                                "children": [
+                                                                                                                                                                    {
+                                                                                                                                                                        "node": {
+                                                                                                                                                                            "formula": {
+                                                                                                                                                                                "modList": "",
+                                                                                                                                                                                "llf": "(λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162))",
+                                                                                                                                                                                "argList": {
+                                                                                                                                                                                    "arg": "c3"
+                                                                                                                                                                                },
+                                                                                                                                                                                "_sign": "true"
+                                                                                                                                                                            },
+                                                                                                                                                                            "source": {
+                                                                                                                                                                                "idList": {
+                                                                                                                                                                                    "id": "16"
+                                                                                                                                                                                },
+                                                                                                                                                                                "_rule": "empty_mod",
+                                                                                                                                                                                "_ruleApp": "empty_mod([16])"
+                                                                                                                                                                            },
+                                                                                                                                                                            "_absId": "22",
+                                                                                                                                                                            "_id": "22"
+                                                                                                                                                                        },
+                                                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                                                        "text": {
+                                                                                                                                                                            "id": "22",
+                                                                                                                                                                            "llf": "LLF: (λ_2162,a@(kickboxing@fight)@(λ_2384,in@_2384@spar@_2162))",
+                                                                                                                                                                            "rule": "Rule applied:empty_mod([16])",
+                                                                                                                                                                            "argument_list": "Argument list: c3",
+                                                                                                                                                                            "source_ids": "16"
+                                                                                                                                                                        },
+                                                                                                                                                                        "children": [
+                                                                                                                                                                            {
+                                                                                                                                                                                "node": {
+                                                                                                                                                                                    "formula": {
+                                                                                                                                                                                        "modList": "",
+                                                                                                                                                                                        "llf": "a@(kickboxing@fight)@(λ_2384,in@_2384@spar@c3)",
+                                                                                                                                                                                        "argList": "",
+                                                                                                                                                                                        "_sign": "true"
+                                                                                                                                                                                    },
+                                                                                                                                                                                    "source": {
+                                                                                                                                                                                        "idList": {
+                                                                                                                                                                                            "id": "22"
+                                                                                                                                                                                        },
+                                                                                                                                                                                        "_rule": "pull_arg",
+                                                                                                                                                                                        "_ruleApp": "pull_arg([22])"
+                                                                                                                                                                                    },
+                                                                                                                                                                                    "_absId": "23",
+                                                                                                                                                                                    "_id": "23"
+                                                                                                                                                                                },
+                                                                                                                                                                                "HTMLclass": "true",
+                                                                                                                                                                                "text": {
+                                                                                                                                                                                    "id": "23",
+                                                                                                                                                                                    "llf": "LLF: a@(kickboxing@fight)@(λ_2384,in@_2384@spar@c3)",
+                                                                                                                                                                                    "rule": "Rule applied:pull_arg([22])",
+                                                                                                                                                                                    "source_ids": "22"
+                                                                                                                                                                                },
+                                                                                                                                                                                "children": [
+                                                                                                                                                                                    {
+                                                                                                                                                                                        "node": {
+                                                                                                                                                                                            "formula": {
+                                                                                                                                                                                                "modList": "",
+                                                                                                                                                                                                "llf": "a@(kickboxing@fight)",
+                                                                                                                                                                                                "argList": {
+                                                                                                                                                                                                    "arg": "(λ_2384,in@_2384@spar@c3)"
+                                                                                                                                                                                                },
+                                                                                                                                                                                                "_sign": "true"
+                                                                                                                                                                                            },
+                                                                                                                                                                                            "source": {
+                                                                                                                                                                                                "idList": {
+                                                                                                                                                                                                    "id": [
+                                                                                                                                                                                                        "23",
+                                                                                                                                                                                                        "21"
+                                                                                                                                                                                                    ]
+                                                                                                                                                                                                },
+                                                                                                                                                                                                "_rule": "same_args_tf",
+                                                                                                                                                                                                "_ruleApp": "same_args_tf([23,21])"
+                                                                                                                                                                                            },
+                                                                                                                                                                                            "_absId": "24",
+                                                                                                                                                                                            "_id": "24"
+                                                                                                                                                                                        },
+                                                                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                                                                        "text": {
+                                                                                                                                                                                            "id": "24",
+                                                                                                                                                                                            "llf": "LLF: a@(kickboxing@fight)",
+                                                                                                                                                                                            "rule": "Rule applied:same_args_tf([23,21])",
+                                                                                                                                                                                            "argument_list": "Argument list: (λ_2384,in@_2384@spar@c3)",
+                                                                                                                                                                                            "source_ids": "Source ID's: 23,21"
+                                                                                                                                                                                        },
+                                                                                                                                                                                        "children": [
+                                                                                                                                                                                            {
+                                                                                                                                                                                                "node": {
+                                                                                                                                                                                                    "formula": {
+                                                                                                                                                                                                        "modList": "",
+                                                                                                                                                                                                        "llf": "a@(kickboxing@match)",
+                                                                                                                                                                                                        "argList": {
+                                                                                                                                                                                                            "arg": "(λ_2384,in@_2384@spar@c3)"
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        "_sign": "false"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    "source": {
+                                                                                                                                                                                                        "idList": {
+                                                                                                                                                                                                            "id": [
+                                                                                                                                                                                                                "23",
+                                                                                                                                                                                                                "21"
+                                                                                                                                                                                                            ]
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        "_rule": "same_args_tf",
+                                                                                                                                                                                                        "_ruleApp": "same_args_tf([23,21])"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    "_absId": "25",
+                                                                                                                                                                                                    "_id": "25"
+                                                                                                                                                                                                },
+                                                                                                                                                                                                "HTMLclass": "false",
+                                                                                                                                                                                                "text": {
+                                                                                                                                                                                                    "id": "25",
+                                                                                                                                                                                                    "llf": "LLF: a@(kickboxing@match)",
+                                                                                                                                                                                                    "rule": "Rule applied:same_args_tf([23,21])",
+                                                                                                                                                                                                    "argument_list": "Argument list: (λ_2384,in@_2384@spar@c3)",
+                                                                                                                                                                                                    "source_ids": "Source ID's: 23,21"
+                                                                                                                                                                                                },
+                                                                                                                                                                                                "children": [
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                        "node": {
+                                                                                                                                                                                                            "formula": {
+                                                                                                                                                                                                                "modList": "",
+                                                                                                                                                                                                                "llf": "kickboxing@fight",
+                                                                                                                                                                                                                "argList": {
+                                                                                                                                                                                                                    "arg": "c4"
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                "_sign": "true"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            "source": {
+                                                                                                                                                                                                                "idList": {
+                                                                                                                                                                                                                    "id": [
+                                                                                                                                                                                                                        "24",
+                                                                                                                                                                                                                        "25"
+                                                                                                                                                                                                                    ]
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                "_rule": "up_mon_fun",
+                                                                                                                                                                                                                "_ruleApp": "up_mon_fun([24,25],[(c4,e)])"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            "_absId": "26",
+                                                                                                                                                                                                            "_id": "26"
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                                                                                        "text": {
+                                                                                                                                                                                                            "id": "26",
+                                                                                                                                                                                                            "llf": "LLF: kickboxing@fight",
+                                                                                                                                                                                                            "rule": "Rule applied:up_mon_fun([24,25],[(c4,e)])",
+                                                                                                                                                                                                            "argument_list": "Argument list: c4",
+                                                                                                                                                                                                            "source_ids": "Source ID's: 24,25"
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        "children": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "node": {
+                                                                                                                                                                                                                    "formula": {
+                                                                                                                                                                                                                        "modList": "",
+                                                                                                                                                                                                                        "llf": "kickboxing@match",
+                                                                                                                                                                                                                        "argList": {
+                                                                                                                                                                                                                            "arg": "c4"
+                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                        "_sign": "false"
+                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                    "source": {
+                                                                                                                                                                                                                        "idList": {
+                                                                                                                                                                                                                            "id": [
+                                                                                                                                                                                                                                "24",
+                                                                                                                                                                                                                                "25"
+                                                                                                                                                                                                                            ]
+                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                        "_rule": "up_mon_fun",
+                                                                                                                                                                                                                        "_ruleApp": "up_mon_fun([24,25],[(c4,e)])"
+                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                    "_absId": "27",
+                                                                                                                                                                                                                    "_id": "27"
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                "HTMLclass": "false",
+                                                                                                                                                                                                                "text": {
+                                                                                                                                                                                                                    "id": "27",
+                                                                                                                                                                                                                    "llf": "LLF: kickboxing@match",
+                                                                                                                                                                                                                    "rule": "Rule applied:up_mon_fun([24,25],[(c4,e)])",
+                                                                                                                                                                                                                    "argument_list": "Argument list: c4",
+                                                                                                                                                                                                                    "source_ids": "Source ID's: 24,25"
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                "children": [
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                        "node": {
+                                                                                                                                                                                                                            "closer": {
+                                                                                                                                                                                                                                "closer_ids": "[26,27]",
+                                                                                                                                                                                                                                "closer_rule": "cl_subsumption_complex"
+                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                            "_id": 1106
+                                                                                                                                                                                                                        },
+                                                                                                                                                                                                                        "HTMLclass": "closure-closed",
+                                                                                                                                                                                                                        "text": {
+                                                                                                                                                                                                                            "id": 1106,
+                                                                                                                                                                                                                            "llf": "Gesloten einde vanuit XML",
+                                                                                                                                                                                                                            "closingRules": "Closed with: cl_subsumption_complex[26,27]"
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                ]
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        ]
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                ]
+                                                                                                                                                                                            }
+                                                                                                                                                                                        ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                ]
+                                                                                                                                                                            }
+                                                                                                                                                                        ]
+                                                                                                                                                                    }
+                                                                                                                                                                ]
+                                                                                                                                                            }
+                                                                                                                                                        ]
+                                                                                                                                                    }
+                                                                                                                                                ]
+                                                                                                                                            }
+                                                                                                                                        ]
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "node": {
+                                                                                                                                            "formula": {
+                                                                                                                                                "modList": "",
+                                                                                                                                                "llf": "two@(young@woman)",
+                                                                                                                                                "argList": {
+                                                                                                                                                    "arg": "be@(λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912))"
+                                                                                                                                                },
+                                                                                                                                                "_sign": "true"
+                                                                                                                                            },
+                                                                                                                                            "source": {
+                                                                                                                                                "idList": {
+                                                                                                                                                    "id": [
+                                                                                                                                                        "1",
+                                                                                                                                                        "2"
+                                                                                                                                                    ]
+                                                                                                                                                },
+                                                                                                                                                "_rule": "up_mon",
+                                                                                                                                                "_ruleApp": "up_mon([1,2],[(c3,e)])"
+                                                                                                                                            },
+                                                                                                                                            "_absId": "18",
+                                                                                                                                            "_id": "18"
+                                                                                                                                        },
+                                                                                                                                        "HTMLclass": "true",
+                                                                                                                                        "text": {
+                                                                                                                                            "id": "18",
+                                                                                                                                            "llf": "LLF: two@(young@woman)",
+                                                                                                                                            "rule": "Rule applied:up_mon([1,2],[(c3,e)])",
+                                                                                                                                            "argument_list": "Argument list: be@(λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912))",
+                                                                                                                                            "source_ids": "Source ID's: 1,2"
+                                                                                                                                        },
+                                                                                                                                        "children": [
+                                                                                                                                            {
+                                                                                                                                                "node": {
+                                                                                                                                                    "formula": {
+                                                                                                                                                        "modList": "",
+                                                                                                                                                        "llf": "two@woman",
+                                                                                                                                                        "argList": {
+                                                                                                                                                            "arg": "be@(λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912))"
+                                                                                                                                                        },
+                                                                                                                                                        "_sign": "false"
+                                                                                                                                                    },
+                                                                                                                                                    "source": {
+                                                                                                                                                        "idList": {
+                                                                                                                                                            "id": [
+                                                                                                                                                                "1",
+                                                                                                                                                                "2"
+                                                                                                                                                            ]
+                                                                                                                                                        },
+                                                                                                                                                        "_rule": "up_mon",
+                                                                                                                                                        "_ruleApp": "up_mon([1,2],[(c3,e)])"
+                                                                                                                                                    },
+                                                                                                                                                    "_absId": "19",
+                                                                                                                                                    "_id": "19"
+                                                                                                                                                },
+                                                                                                                                                "HTMLclass": "false",
+                                                                                                                                                "text": {
+                                                                                                                                                    "id": "19",
+                                                                                                                                                    "llf": "LLF: two@woman",
+                                                                                                                                                    "rule": "Rule applied:up_mon([1,2],[(c3,e)])",
+                                                                                                                                                    "argument_list": "Argument list: be@(λ_2912,a@(kickboxing@match)@(λ_2384,in@_2384@spar@_2912))",
+                                                                                                                                                    "source_ids": "Source ID's: 1,2"
+                                                                                                                                                },
+                                                                                                                                                "children": [
+                                                                                                                                                    {
+                                                                                                                                                        "node": {
+                                                                                                                                                            "closer": {
+                                                                                                                                                                "closer_ids": "[18,19]",
+                                                                                                                                                                "closer_rule": "cl_subsumption_complex"
+                                                                                                                                                            },
+                                                                                                                                                            "_id": 802
+                                                                                                                                                        },
+                                                                                                                                                        "HTMLclass": "closure-closed",
+                                                                                                                                                        "text": {
+                                                                                                                                                            "id": 802,
+                                                                                                                                                            "llf": "Gesloten einde vanuit XML",
+                                                                                                                                                            "closingRules": "Closed with: cl_subsumption_complex[18,19]"
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                ]
+                                                                                                                                            }
+                                                                                                                                        ]
+                                                                                                                                    }
+                                                                                                                                ]
+                                                                                                                            }
+                                                                                                                        ]
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ]
+                                                                                                    }
+                                                                                                ]
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

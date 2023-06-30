@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://fiddle.jshell.net/yu4ekLf5/show/light/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>x2js demo</title>
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script type="text/javascript" src="./jquery-git.js.download"></script>
+
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+
+      <script type="text/javascript" src="./xml2json.js.download"></script>
+      <script type="text/javascript" src="./jquery-1.12.4.min.js.download"></script>
+
+  <style id="compiled-css" type="text/css">
+    
+
+    /* EOS */
+  </style>
+
+  <script id="insert"></script>
+
+</head>
+<body>
+    
+     <h1>X2JS Demo</h1>
+
+    <button id="convertToJsonBtn">XML =&gt; JSON</button>
+    <button id="convertToXmlBtn">JSON =&gt; XML</button>
+    <div>
+         <h4>XML:</h4>
+
+        <textarea id="xmlArea" cols="55" rows="15"></textarea>
+    </div>
+    <div>
+         <h4>JSON:</h4>
+
+        <textarea id="jsonArea" cols="55" rows="15"></textarea>
+    </div>
+
+
+    <script type="text/javascript">//<![CDATA[
+
+
+var x2js = new X2JS();
+
+function convertXml2JSon() {
+    $("#jsonArea").val(JSON.stringify(x2js.xml_str2json($("#xmlArea").val())));
+}
+
+function convertJSon2XML() {
+    $("#xmlArea").val(x2js.json2xml_str($.parseJSON($("#jsonArea").val())));
+}
+
+$("#xmlArea").val("<root><child><textNode>First &amp; Child</textNode></child><child><textNode>Second Child</textNode></child><testAttrs attr1='attr1Value'/></root>");
+
+convertXml2JSon();
+convertJSon2XML();
+$("#convertToJsonBtn").click(convertXml2JSon);
+$("#convertToXmlBtn").click(convertJSon2XML);
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "yu4ekLf5"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+
+
+</body></html>
